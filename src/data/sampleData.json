@@ -1,0 +1,186 @@
+{
+  "users": [
+    {
+      "_id": "user1",
+      "fullName": "Sindhu",
+      "email": "sindhu@gmail.com",
+      "role": "user"
+    },
+    {
+      "_id": "user2",
+      "fullName": "Uma",
+      "email": "uma@gmail.com",
+      "role": "user"
+    },
+    {
+      "_id": "user3",
+      "fullName": "Danishwar",
+      "email": "danishwar@gmail.com",
+      "role": "user"
+    },
+    {
+      "_id": "admin1",
+      "fullName": "Admin User",
+      "email": "admin@gmail.com",
+      "role": "admin"
+    }
+  ],
+  "complaints": [
+    {
+      "_id": "comp1001",
+      "title": "Internet Service Outage",
+      "description": "Internet has been down for 3 days in my area",
+      "category": "Technical",
+      "status": "pending",
+      "createdAt": "2023-06-15T10:30:00Z",
+      "user": {
+        "_id": "user1",
+        "fullName": "Sindhu",
+        "email": "sindhu@gmail.com"
+      }
+    },
+    {
+      "_id": "comp1002",
+      "title": "Billing Discrepancy",
+      "description": "I was charged twice for my monthly subscription",
+      "category": "Billing",
+      "status": "in-progress",
+      "createdAt": "2023-06-10T14:20:00Z",
+      "user": {
+        "_id": "user2",
+        "fullName": "Uma",
+        "email": "uma@gmail.com"
+      }
+    },
+    {
+      "_id": "comp1003",
+      "title": "Poor Customer Service",
+      "description": "The representative was rude and unhelpful",
+      "category": "Service",
+      "status": "resolved",
+      "createdAt": "2023-05-28T09:15:00Z",
+      "user": {
+        "_id": "user3",
+        "fullName": "Danishwar",
+        "email": "danishwar@gmail.com"
+      }
+    },
+    {
+      "_id": "comp1004",
+      "title": "Product Defect",
+      "description": "My new device stopped working after 2 days",
+      "category": "Product",
+      "status": "pending",
+      "createdAt": "2023-06-12T11:45:00Z",
+      "user": {
+        "_id": "user1",
+        "fullName": "Sindhu",
+        "email": "sindhu@gmail.com"
+      }
+    },
+    {
+      "_id": "comp1005",
+      "title": "Refund Request",
+      "description": "I would like a refund for the service I didn't use",
+      "category": "Billing",
+      "status": "in-progress",
+      "createdAt": "2023-06-08T16:30:00Z",
+      "user": {
+        "_id": "user2",
+        "fullName": "Uma",
+        "email": "uma@gmail.com"
+      }
+    },
+    {
+      "_id": "comp1006",
+      "title": "Website Error",
+      "description": "Cannot access my account on the website",
+      "category": "Technical",
+      "status": "resolved",
+      "createdAt": "2023-05-30T13:20:00Z",
+      "user": {
+        "_id": "user3",
+        "fullName": "Danishwar",
+        "email": "danishwar@gmail.com"
+      }
+    },
+    {
+      "_id": "comp1007",
+      "title": "Delivery Delay",
+      "description": "My order is significantly delayed",
+      "category": "Shipping",
+      "status": "pending",
+      "createdAt": "2023-06-14T10:10:00Z",
+      "user": {
+        "_id": "user1",
+        "fullName": "Sindhu",
+        "email": "sindhu@gmail.com"
+      }
+    },
+    {
+      "_id": "comp1008",
+      "title": "Incorrect Order",
+      "description": "I received the wrong items in my order",
+      "category": "Shipping",
+      "status": "in-progress",
+      "createdAt": "2023-06-09T09:45:00Z",
+      "user": {
+        "_id": "user2",
+        "fullName": "Uma",
+        "email": "uma@gmail.com"
+      }
+    },
+    {
+      "_id": "comp1009",
+      "title": "App Crash",
+      "description": "The mobile app keeps crashing when I try to log in",
+      "category": "Technical",
+      "status": "resolved",
+      "createdAt": "2023-06-01T15:30:00Z",
+      "user": {
+        "_id": "user3",
+        "fullName": "Danishwar",
+        "email": "danishwar@gmail.com"
+      }
+    },
+    {
+      "_id": "comp1010",
+      "title": "Subscription Cancellation",
+      "description": "I want to cancel my subscription but can't find the option",
+      "category": "Account",
+      "status": "pending",
+      "createdAt": "2023-06-13T14:15:00Z",
+      "user": {
+        "_id": "user1",
+        "fullName": "Sindhu",
+        "email": "sindhu@gmail.com"
+      }
+    },
+    {
+      "_id": "comp1011",
+      "title": "Missing Features",
+      "description": "The premium plan is missing features that were advertised",
+      "category": "Product",
+      "status": "in-progress",
+      "createdAt": "2023-06-07T11:20:00Z",
+      "user": {
+        "_id": "user2",
+        "fullName": "Uma",
+        "email": "uma@gmail.com"
+      }
+    },
+    {
+      "_id": "comp1012",
+      "title": "Account Access Issue",
+      "description": "Cannot reset my password",
+      "category": "Account",
+      "status": "resolved",
+      "createdAt": "2023-06-02T10:40:00Z",
+      "user": {
+        "_id": "user3",
+        "fullName": "Danishwar",
+        "email": "danishwar@gmail.com"
+      }
+    }
+  ]
+}
